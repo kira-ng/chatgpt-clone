@@ -12,7 +12,15 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <div className="flex">
+          {/* Sidebar */}
+
+          {/* ClientProider - Notification  */}
+
+          <div className="bg-[#343541] flex-1">{children}</div>
+        </div>
+      </body>
     </html>
   )
 }
