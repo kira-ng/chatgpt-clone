@@ -1,5 +1,5 @@
-function page() {
-  return <div>Chat</div>
+function ChatPage() {
+  return <div>ChatPage</div>
 }
 
-export default page
+export default ChatPage
