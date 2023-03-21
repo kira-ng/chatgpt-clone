@@ -29,7 +29,7 @@ export default async function handler(
 
   const message: Message = {
     text: response || 'ChatGPT was unable to find an answer for that!',
-    createAt: admin.firestore.Timestamp.now(),
+    createdAt: admin.firestore.Timestamp.now(),
     user: {
       _id: 'ChatGPT',
       name: 'ChatGPT',
